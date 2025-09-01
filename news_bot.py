@@ -6,8 +6,8 @@ import os
 
 # --- ⚙️ الإعدادات: تم تحديث قائمة الـ RSS ⚙️ ---
 
-# التوكن الخاص بالبوت
-TELEGRAM_BOT_TOKEN = "8232253984:AAEEXwUFQ7yraWhw8Jf42y9YiB3888QwtBI" 
+import os # تأكد من إضافة هذا السطر في أعلى الملف مع باقي الـ imports
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 # الـ Chat ID الخاص بقناتك
 TELEGRAM_CHAT_ID = "-1002989614139"
