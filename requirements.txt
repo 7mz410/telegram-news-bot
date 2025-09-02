@@ -1,0 +1,10 @@
+# /requirements.txt
+
+# For parsing RSS feeds
+feedparser
+
+# For making HTTP requests to Telegram API
+requests
+
+# For reading secret variables from .env file locally
+python-dotenv
