@@ -10,7 +10,7 @@ import os # تأكد من إضافة هذا السطر في أعلى الملف 
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 
 # الـ Chat ID الخاص بقناتك
-TELEGRAM_CHAT_ID = "-1002989614139"
+TELEGRAM_CHAT_ID = "-1002320540733"
 
 # قائمة روابط الـ RSS الجديدة التي طلبتها
 RSS_FEEDS = [
